@@ -77,7 +77,6 @@ h1 span { color: var(--secondary); }
 .button:hover svg { transform: translateX(3px); }
 .text-link { display: inline-block; padding-block: 12px; font-size: .92rem; }
 .hero-art { margin: 0; justify-self: end; width: min(100%, 560px); }
-.hero-art figcaption { margin-top: -8px; font-size: .75rem; line-height: 1.6; text-align: center; color: var(--secondary); }
 .facts { display: grid; grid-template-columns: repeat(4, 1fr); margin: 40px 0 0; border-top: 1px solid var(--rule); }
 .facts > div { padding: 30px 28px 34px; border-left: 1px solid var(--rule); }
 .facts > div:first-child { border-left: 0; padding-left: 0; }

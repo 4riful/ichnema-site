@@ -67,9 +67,7 @@ code, pre { font-family: var(--lettering); }
 /* Hero */
 .hero { padding-top: 40px; border-bottom: 1px solid var(--rule); }
 .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; min-height: 600px; }
-.eyebrow { display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px 7px 12px; border: 1px solid var(--rule); color: var(--secondary); font-size: .8rem; letter-spacing: .01em; }
-.status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--signal); box-shadow: 0 0 0 3px rgb(195 243 107 / .16); }
-h1 { margin-top: 30px; font-size: clamp(2.7rem, 5.2vw, 4.9rem); line-height: 1.08; letter-spacing: -.04em; }
+h1 { font-size: clamp(2.7rem, 5.2vw, 4.9rem); line-height: 1.08; letter-spacing: -.04em; }
 h1 span { color: var(--secondary); }
 .hero-intro { color: var(--secondary); max-width: 480px; margin-top: 28px; font-size: 1.14rem; }
 .actions { display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: center; margin-top: 38px; }
@@ -189,7 +187,7 @@ details p { padding: 0 30px 26px 0; color: var(--muted-ink); }
   .header-cta { margin-left: auto; padding: 7px 12px; font-size: .82rem; }
   .hero { padding-top: 32px; }
   .hero-grid { grid-template-columns: 1fr; gap: 8px; min-height: auto; }
-  h1 { margin-top: 24px; font-size: clamp(2.3rem, 10vw, 3.1rem); }
+  h1 { font-size: clamp(2.3rem, 10vw, 3.1rem); }
   .hero-intro { font-size: 1.03rem; margin-top: 22px; }
   .actions { margin-top: 28px; }
   .hero-art { justify-self: center; width: min(100%, 340px); }
